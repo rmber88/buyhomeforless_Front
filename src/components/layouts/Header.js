@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect, Fragment } from "react";
 import Menu from "../layouts/Menu";
 import Mobilemenu from "../layouts/Mobilemenu";
@@ -29,7 +27,6 @@ const Header = () => {
 
   return (
     <Fragment>
-      {/* Aside (Mobile Navigation) */}
       <aside className={navtoggle ? "main-aside open" : "main-aside"}>
         <div className="aside-title">
           <div className="aside-controls aside-trigger">
@@ -49,7 +46,6 @@ const Header = () => {
         className="aside-overlay aside-trigger"
         onClick={() => setnavtoggle(false)}
       />
-      {/* Header Start */}
       <header className={`main-header header-fw can-sticky header-1 ${sticky}`}>
         {/* Top Header Start */}
         <div className="top-header">
@@ -213,7 +209,6 @@ const Header = () => {
           </div>
         </nav>
       </header>
-      {/* Header End */}
     </Fragment>
   );
 };
