@@ -1,8 +1,4 @@
-/* Simply Replace the colors in this stylesheet to your brand. */
 
-/*===============================================
-PRIMARY COLOR Default: #519fff
-==============================================*/
 .lds-grid div,
 .primary-bg, blockquote,
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before,
@@ -63,9 +59,6 @@ a,
   border-color: #519fff;
 }
 
-/*===============================================
-PRIMARY COLOR (HOVER & FOCUS)  Default: #478adc
-==============================================*/
 a:hover,
 a:focus,
 .btn-link:hover,
@@ -95,9 +88,6 @@ a:focus,
   border-color: #478adc;
 }
 
-/*===============================================
-SECONDARY COLOR Default: #01BBBC
-==============================================*/
 
 .acr-featured-listing .featured-listing-thumb .featured-listing-controls span,
 .cta.cta-2.item2 > i,
@@ -135,9 +125,7 @@ SECONDARY COLOR Default: #01BBBC
   border-bottom-color: #01BBBC;
 }
 
-/*==================================================
-SECONDARY COLOR (Hover & Focus) Default: #00a0a1
-==================================================*/
+
 .btn-custom.secondary::before,
 .infographics-2 .acr-infographic-item:hover a:hover{
   background-color: #00a0a1;
