@@ -1,15 +1,14 @@
-import React, { Fragment } from 'react';
 import Menu from '../layouts/Menu';
 import Mobilemenu from '../layouts/Mobilemenu';
 import HeaderComponent from '../../helper/Navigationhelper';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
+import React, { Fragment } from 'react';
 
 class Headertwo extends HeaderComponent {
     render() {
         return (
             <Fragment>
-                {/* Aside (Mobile Navigation) */}
                 <aside className={classNames("main-aside", { "open": this.state.navtoggle })}>
                     <div className="aside-title">
                         <div className="aside-controls aside-trigger">
@@ -23,11 +22,9 @@ class Headertwo extends HeaderComponent {
                     <Mobilemenu />
                 </aside>
                 <div className="aside-overlay aside-trigger" onClick={this.navtoggleClass} />
-                {/* Header Start */}
                 <header className="main-header header-3">
                     <nav className="navbar">
                         <div className="container">
-                            {/* Menu */}
                             <Menu />
                             <div className="header-controls">
                                 <ul className="header-controls-inner d-none d-lg-flex">
@@ -35,7 +32,6 @@ class Headertwo extends HeaderComponent {
                                         <Link to="/login" className="btn-custom primary">Login <i className="fas fa-user" /> </Link>
                                     </li>
                                 </ul>
-                                {/* Toggler */}
                                 <div className="aside-toggler aside-trigger" onClick={this.navtoggleClass}>
                                     <span />
                                     <span />
@@ -45,7 +41,6 @@ class Headertwo extends HeaderComponent {
                         </div>
                     </nav>
                 </header>
-                {/* Header End */}
             </Fragment>
         );
     }
