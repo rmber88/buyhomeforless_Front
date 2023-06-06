@@ -4,7 +4,6 @@ import HeaderComponent from '../../helper/Navigationhelper';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import React, { Fragment } from 'react';
-
 class Headertwo extends HeaderComponent {
     render() {
         return (
@@ -45,5 +44,4 @@ class Headertwo extends HeaderComponent {
         );
     }
 }
-
 export default Headertwo;
