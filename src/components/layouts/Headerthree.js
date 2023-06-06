@@ -23,8 +23,8 @@ class Headerthree extends HeaderComponent {
                     </div>
                     <Mobilemenu />
                 </aside>
+
                 <div className="aside-overlay aside-trigger" onClick={this.navtoggleClass} />
-                {/* Header Start */}
                 <header className={`main-header header-fw can-sticky header-1 ${stickyheader}`}>
                     <nav className="navbar">
                         {/* Menu */}
@@ -44,7 +44,6 @@ class Headerthree extends HeaderComponent {
                         </div>
                     </nav>
                 </header>
-                {/* Header End */}
             </Fragment>
         );
     }
