@@ -3,11 +3,12 @@ import MetaTags from "react-meta-tags";
 import Header from "../layouts/Headerfive";
 import Content from "../sections/login/Content";
 
+
 const Login = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Acres - Real Estate React Template | Login</title>
+        <title>Login</title>
         <meta name="description" content="#" />
       </MetaTags>
       <Header />
@@ -15,5 +16,4 @@ const Login = () => {
     </Fragment>
   );
 };
-
 export default Login;
