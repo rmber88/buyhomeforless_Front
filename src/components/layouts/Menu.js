@@ -10,7 +10,6 @@ const Menu = () => {
         to="/"
         onClick={() => window.location.replace("/")}
       >
-        {" "}
         <img
           className="p-2"
           src={process.env.PUBLIC_URL + "/assets/img/logo.png"}
@@ -193,11 +192,11 @@ const Menu = () => {
           <Link to="/agent">Retirement Asia</Link>
         </li>
         
-                        <ul className="submenu">
-                            <li className="menu-item"> <Link to="/agency-archive">Agency Archive</Link> </li>
-                            <li className="menu-item"> <Link to="/agency-details">Agency Details</Link> </li>
-                        </ul>
-                    </li> */}
+          <ul className="submenu">
+                  <li className="menu-item"> <Link to="/agency-archive">Agency Archive</Link> </li>
+                  <li className="menu-item"> <Link to="/agency-details">Agency Details</Link> </li>
+              </ul>
+          </li>
       </ul>
     </Fragment>
   );
