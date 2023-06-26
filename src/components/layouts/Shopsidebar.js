@@ -177,7 +177,6 @@ class Shopsidebar extends Component {
                     </div>
                   </div>
                 ))}
-              {/* Listing End */}
             </div>
           </Collapse>
         </div>
@@ -202,5 +201,4 @@ class Shopsidebar extends Component {
     );
   }
 }
-
 export default Shopsidebar;
